@@ -1,0 +1,68 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  height: auto;
+  width: 40vw;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0 10px 0;
+}
+.heading {
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: "montserrat";
+  font-size: 14px;
+}
+.dpandinfo {
+  display: flex;
+  align-items: center;
+}
+.dpandinfo img[alt="dp"] {
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.threedots {
+  font-size: 20px;
+}
+.caption {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  hyphens: auto;
+}
+.image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.likeshare {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.likeshare img[alt="reactions"] {
+  max-width: 40%;
+  height: auto;
+}
+.likeshare img[alt="likecmnt"] {
+  max-width: 50%;
+  height: auto;
+}
+@media (max-width: 430px) {
+  .card {
+    height: 100%;
+    width: 100%;
+  }
+}
